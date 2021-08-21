@@ -68,4 +68,27 @@ console.log(document.title);
 let test=document.getElementById("midParagraph")
 console.log(test.parentElement);
 
+// Adding CSS to DOM
+// adding individually
+// let paragraph=document.getElementById("acess")
+// console.log(paragraph.style.backgroundColor="maroon");
+
+// Adding using css text
+// let paragraph1=document.getElementById("acess")
+// console.log(paragraph1.style.cssText="background-color:maroon;color:white")
+
+
+// let paragraph2=document.getElementById("acess")
+// console.log(paragraph2.classList.add(mtext));
+
+function addStyle(){
+       let paragraph=document.getElementById("acess");
+       paragraph.classList.add("textColor");
+
+}
+function removeStyle(){
+    let paragraph1=document.getElementById("acess");
+    paragraph1.classList.remove("textColor");
+}
+
 
