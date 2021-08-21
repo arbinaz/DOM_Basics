@@ -34,3 +34,35 @@ console.log(document.title);
 
  let p4=document.querySelectorAll("h1")
  console.log(p4);
+
+ let parentE1=document.getElementById("parent")
+ console.log(parentE1.children);
+
+ let parentE2=document.getElementById("parent")
+ console.log(parentE2.childNodes);
+
+ let parentE3=document.getElementById("parent")
+ console.log(parentE3.firstChild);
+
+ let parentE4=document.getElementById("parent")
+ console.log(parentE4.lastChild);
+
+ let parentE5=document.getElementById("parent")
+ console.log(parentE5.firstElementChild);
+
+ let parentE6=document.getElementById("parent")
+ console.log(parentE6.lastElementChild);
+
+ let midE1=document.getElementById("midParagraph")
+ console.log(midE1.previousSibling);
+
+ let midE2=document.getElementById("midParagraph")
+ console.log(midE2.nextSibling);
+
+ let midE3=document.getElementById("midParagraph")
+ console.log(midE3.previousElementSibling);
+
+ let midE4=document.getElementById("midParagraph")
+ console.log(midE4.nextElementSibling);
+
+
